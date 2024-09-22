@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(bg.jpg);
+}
+
+#lighton {
+    height: 400px;
+    width: 700px;
+    position: relative;
+    top: 22vh;
+    left: 25vw;
+}
+
+#lightoff {
+    height: 400px;
+    width: 700px;
+    position: absolute;
+    top: 22vh;
+    left: 25vw;
+}
+
+#lightoff:hover {
+    display: none;
+}
